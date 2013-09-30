@@ -1,0 +1,17 @@
+{
+  "name": "m-cms",
+  "version": "0.0.1",
+  "description": "m-cms is a very small nodejs app that runs on the server and serves html files. this application is the client side cms to accompany it.",
+  "main": "index.html",
+  "window": {
+    "width": 600,
+    "height": 750,
+    "title": "m-cms edit",
+    "toolbar": true
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

@@ -1,4 +1,4 @@
 node-webkit-express
 ===================
 
-allows express to run inside node-webkit.
+allows to start a nodejs express server inside node-webkit
