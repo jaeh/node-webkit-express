@@ -5,7 +5,6 @@
  */
 var http = require('http')
   , express = require('express')
-  , http = require('http')
   , path = require('path')
   , routes = require(path.join(process.cwd(), 'routes', 'index.js'))
   , app = express();
