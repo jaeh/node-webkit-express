@@ -3,9 +3,8 @@ node-webkit-express
 
 allows to start a nodejs express server inside node-webkit.
 
-to use:
+to use (tested on linux [ubuntu && fedora] only):
 
-linux:
     git clone git@github.com/jaeh/node-webkit-express
     cd node-webkit-express && npm install
     npm install nodewebkit
