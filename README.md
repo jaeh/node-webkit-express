@@ -6,10 +6,13 @@ allows to start a nodejs express server inside node-webkit.
 to use:
 
 linux:
-  git clone https://github.com/jaeh/node-webkit-express
-  cd node-webkit-express && npm install
+    git clone git@github.com/jaeh/node-webkit-express
+    cd node-webkit-express && npm install
+    npm install nodewebkit
+    npm start
 
-then include nw, nw.pak, nwsnapshot and libffmpegsumo.so.
-DONT overwrite package.json, app.js and index.html
+nodewebkit install is separated because the package may already be installed globally on your system.
 
-then simply start ./nw
+do NOT overwrite package.json, app.js and index.html
+
+then simply 
