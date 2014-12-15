@@ -13,5 +13,3 @@ to use (tested on linux [ubuntu && fedora] only):
 nodewebkit install is separated because the package may already be installed globally on your system.
 
 do NOT overwrite package.json, app.js and index.html
-
-then simply 
